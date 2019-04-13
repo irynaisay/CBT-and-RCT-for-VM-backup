@@ -10,6 +10,7 @@ As [technopedia determines](https://www.techopedia.com/definition/4805/virtual-m
 CBT provides for incremental backups. CBT is about tracking and backing up only blocks that changed rather than backing up all the blocks.
 
 *Pic. 1*
-![CBT](https://sketch.io/render/sk-a97224e9d42043b3cb5bdf2f7215fac3.jpeg)
+
+![CBT](https://www.google.com/url?sa=i&source=images&cd=&cad=rja&uact=8&ved=2ahUKEwjjjJidmc3hAhVJ-YUKHdjwC7UQjRx6BAgBEAU&url=https%3A%2F%2Fwww.slideshare.net%2Fnakivo%2Fabout-nakivo-2012-1003&psig=AOvVaw1RO8qpR2T3p0ZrRU7G87km&ust=1555249236183690)
 
 
