@@ -15,3 +15,5 @@ CBT provides for incremental backups, which means tracking and backing up only b
 
 CBT is easy to be implemented: just configure your database and objects. The history of changes, as may be guessed from the name of the approach, is also easy to be tracked. The columns as well as rows that changed may be quickly identified. The performance is high. Context information may be added, if required. And, finally, there is an auto cleanup available: the data collected is deleted based on the date of retention.
 
+However, there are some cons to be mentioned: no tracking of the time of the change; no tracking of security context performing the change; no tracking of the way the data changed; although insignificant, the change adds some overhead to the server; and, what is more, it adds some time to the transaction time.
+
