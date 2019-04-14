@@ -1,5 +1,8 @@
-# CBT and RCT for VM backup
-## Let's Start from the Backup: What is It?
+# CBT and RCT for VM Backup
+
+Nowadays, there are many backup solutions. Some of them are considered to be really leverage technologies. However, that’s not what we are here today for: we won’t do any estimation and we won't try rank solutions available in the market. I suggest we pick up two popular technologies and see what they stand for. The target of this short post is to stay up-to-date with the market developments.
+
+## Now, Briefly about Backup: What is It?
 
 Backups is one of the many pain points for system administrators and consequently for their companies. Companies develop and approve retention policies determining backup requirements, procedures, and options, which may vary depending on the needs faced and resources available. Backups of virtual machines expose even higher risks.
 
@@ -7,7 +10,7 @@ As [technopedia determines](https://www.techopedia.com/definition/4805/virtual-m
 
 ## Breaking Down: Changed Block Tracking (the CBT) and Resilient Change Tracking (the RCT)
 
-CBT provides for incremental backups, which means tracking and backing up only blocks that changed rather than backing up all the blocks.
+**CBT** provides for incremental backups, which means tracking and backing up only blocks that changed rather than backing up all the blocks. 
 
 *Pic. 1*
 
@@ -17,3 +20,4 @@ CBT is easy to be implemented: just configure your database and objects. The his
 
 However, there are some cons to be mentioned: no tracking of the time of the change; no tracking of security context performing the change; no tracking of the way the data changed; although insignificant, the change adds some overhead to the server; and, what is more, it adds some time to the transaction time.
 
+**RCT** 
