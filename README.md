@@ -2,11 +2,13 @@
 
 Nowadays, there are many backup solutions. Some of them are considered to be really leverage technologies. However, that’s not what we are here today for: we won’t do any estimation and we won't try rank solutions available in the market. I suggest we pick up two popular technologies and see what they stand for. The target of this short post is to stay up-to-date with the market developments.
 
-## Now, Briefly about Backup: What is It?
+## Now, Briefly about Backuping
 
 Backups is one of the many pain points for system administrators and consequently for their companies. Companies develop and approve retention policies determining backup requirements, procedures, and options, which may vary depending on the needs faced and resources available. Backups of virtual machines expose even higher risks.
 
 As [technopedia determines](https://www.techopedia.com/definition/4805/virtual-machine-vm), a virtual machine (the VM) is a software or an operating system that runs applications and programs as well as performs multiple tasks just as a real computer.
+
+Backups of VMs are essential to protect data. Today, with heavy loads on servers, there are many nicee backup tools that allow mainstreaming myriads of sophisticated tasks. Today, I suggest we only check two tools.
 
 ## Breaking Down: Changed Block Tracking (the CBT) and Resilient Change Tracking (the RCT)
 
