@@ -26,3 +26,6 @@ As Microsoft had no CBT-like feature, in 2016, with the release of Windows Serve
 
 What makes users so excited about RCT: Microsoft offers Modified Region Table (the MRT), which maintains records of changes with the disk or the storage. Therefore, you don’t have to fully rescan the disk/storage for changes. In addition, the RCT file capacity is up to 6MB. It may be used for migrations, for instance.
 
+Of course, there are cons in the RCT approach. However, the built-in technology runs faster and more efficiently with every new release, the gaps are getting filled and businesses are strengthening their backing up forces.
+
+If you want to know details, [here](https://www.nakivo.com/blog/vm-backup-hyper-v-changed-block-tracking-cbt/) is a description of how the RCT works. 
